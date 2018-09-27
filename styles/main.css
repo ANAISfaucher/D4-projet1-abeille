@@ -5,16 +5,38 @@
 
 body {
   font-size: 200%;
+  background-image:url(../image/accueil.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 
 h1 {
+text-align: center;
 font-family: 'Chicle', cursive;
+margin-top: 2em;
 
 }
 
+p {
 
+text-align: center; }
 
 .list {
   list-style-type: none;
+}
+
+
+.accueil{
+  position: absolute;
+  top: 90px;
+  left: 133px;
+}
+
+.suismireille-1 {
+position: absolute;
+left: 460px;
+top: 600px;
+
 }
