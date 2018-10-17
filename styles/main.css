@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Chicle');
+@import url('https://fonts.googleapis.com/css?family=Chicle|Mali|Yanone+Kaffeesatz');
 
 html {
   font-size: 200%;
@@ -16,13 +16,15 @@ h1 {
 text-align: center;
 font-family: 'Chicle', cursive;
 font-size: 1.5em;
+color: #875959;
 }
 
 
 
  h2 {
    text-align: center;
- font-family: 'Chicle', cursive;
+   font-family: 'Chicle', cursive;
+   color: #F74F4F;
 }
 
 
@@ -30,7 +32,8 @@ p {
   margin-top: 15px;
   text-align: center;
   font-size: 0.6em;
-
+  font-family: 'Mali';
+  color: #725238;
  }
 
 header {
@@ -40,6 +43,7 @@ header {
 }
 
 header a {
+  font-family: 'Mali';
   text-decoration: none;
   color: #725238;
 
@@ -81,33 +85,35 @@ h3{
 }
 
 
-
-
-
-
 .main-content {
   min-height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
+
 }
 
 .navigation-block {
-
   max-width : 320px;
+  color: blue;
+
 }
 
-.navigation-block a {
+.navigation-block p {
+  font-size: 1em;
   text-decoration: none;
   color : #725238;
 }
 
-.navigation-block a:hover {
+.navigation-block p:hover {
   text-decoration: none;
   color : white;
 }
 
+.navigation-block a {
+  text-decoration: none;
+  }
+
+.navigation-block a:hover {
+  text-decoration: none;
+  }
 
 section {
 
@@ -125,7 +131,10 @@ footer {
    margin-top: 15px;
  }
 
+
+
    footer a {
+     font-family: 'Mali';
      text-decoration: none;
      color: #725238;
    }
@@ -133,4 +142,11 @@ footer {
    footer a:hover {
      text-decoration: none;
      color: white;
+   }
+
+
+   footer img {
+      max-width: 9vh;
+      
+
    }
