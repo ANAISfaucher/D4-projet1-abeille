@@ -6,8 +6,10 @@ html {
 
 body {
   background-image:url(../image/accueil-2.svg);
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #F9D7D7;
 
 }
 
@@ -16,7 +18,7 @@ h1 {
 text-align: center;
 font-family: 'Chicle', cursive;
 font-size: 1.5em;
-color: #875959;
+color: #F74F4F;
 }
 
 
@@ -24,7 +26,7 @@ color: #875959;
  h2 {
    text-align: center;
    font-family: 'Chicle', cursive;
-   color: #F74F4F;
+   color: #875959;
 }
 
 
@@ -86,6 +88,7 @@ h3{
 
 
 .main-content {
+  display: flex;
   min-height: 80vh;
 
 }
@@ -147,6 +150,7 @@ footer {
 
    footer img {
       max-width: 9vh;
-      
+      align-items: center;
+      content: center;
 
    }
